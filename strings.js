@@ -6,4 +6,11 @@ function help(){
 function dontHelp(){
     alert("5 people were eaten by a Baby Shark , and the Momma Shark watched it all. Thanks for Nothing");
     document.getElementById("demo").innerHTML = "Why Wont You HELP US !!!!!"
+    name();
 }
+
+function entName(){
+    var enteredName = document.getElementById("nameentered").value;
+    document.getElementById("name").innerHTML = enteredName;
+}
+
