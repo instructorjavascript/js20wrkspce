@@ -4,4 +4,5 @@ var name = "Duke";
 var isEligible = false; 
 var winners = '2';
 var losers  
-var total = losers * winners; 
+var total = losers * winners;
+var newVariable = false;
