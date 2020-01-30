@@ -1,0 +1,35 @@
+h1{
+color: gold;
+text-align: center;
+text-decoration: underline;
+text-decoration-style: wavy;
+outline-color: red;
+}
+h2,h3{
+color: royalblue;
+text-align: center;
+}
+h4,h5{
+color: red;
+text-align: center;
+}
+h6{
+color: lightblue;
+text-align: center;
+}
+button{
+    color: white;
+    background-color: rgb(15, 167, 15);
+}
+p{
+    color: royalblue;
+    text-align: center;
+}
+input{
+    color: green;
+    text-align: center;
+}
+body{
+    background-color: gray;
+    text-align: center;
+}
