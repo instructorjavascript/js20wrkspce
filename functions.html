@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>ready! set! Functions!!</h2>
+    <input type="text" name="nameInput" id="nameInput">
+    <button onclick="printConsole(document.getElementById('nameInput').value)">name</button>
+    <p id="nameOutput"></p>
+    <br>
+    
+    <h4>Phone Information</h4>
+    <input type="text" name="type" id="type" placeholder="Phone Type">
+    <input type="number" name="bLife" id="bl" placeholder="Battery Life">
+    <input type="text" name="operating system" id="os" placeholder="Operating System">
+    <input type="number" name="memory" id="mem" placeholder="Storage Capacity">
+    <br>
+    <button onclick="phone( 
+        document.getElementById('type').value ,
+        document.getElementById('bl').value , 
+        document.getElementById('os').value, 
+        document.getElementById('mem').value
+        )">phone</button>
+    <p id="phoneOutput"></p>
+`   <br>
+    <input type="text" name="User" id="user" placeholder="Enter Your Name">
+    <input type="number" name="age" id="age" placeholder="Enter Your Age">
+    <br>
+    <button onclick="main(
+        document.getElementById('user').value,
+        document.getElementById('age').value
+    )">main</button>
+    <p id="statusOutput"></p>
+    <script src="functions.js"></script>
+</body>
+</html>
